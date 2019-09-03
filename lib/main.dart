@@ -27,7 +27,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    print('called');
     return ScopedModel(
       model: CounterModel(),
       child: Scaffold(
