@@ -38,7 +38,7 @@ class CounterModel extends Model {
 ```
 
  Step 5:
- Now in main.dart file we will define the scoped model scope using ScopedModel widget and all the child elements have access to scoped model class using ScopedModelDescedant<Dynamic> widget. Following is the programming implementation of tha.
+ Now in main.dart file we will define the scoped model scope using ScopedModel widget and all the child elements have access to scoped model class using ScopedModelDescedant<Dynamic> widget. Following is the programming implementation of that.
 ```
 import 'package:flutter/material.dart';
 import 'package:flutter_scoped_model/counter_model.dart';
